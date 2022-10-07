@@ -1,0 +1,69 @@
+{% load static %}
+{% load i18n %}
+<section id="populer-products" class="populer-products">
+    <div class="container">
+        <div class="populer-products-content">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="single-populer-products">
+                        <div class="single-populer-product-img mt40">
+                            <img src="{% static 'images/populer-products/p1.png' %}" alt="populer-products images">
+                        </div>
+                        <h2><a href="#">{% trans 'stul dizayni' %}</a></h2>
+                        <div class="single-populer-products-para">
+                            <p>{% trans 'Kreslolar va stul dizayni haqida hikoyalar' %}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="single-populer-products">
+                        <div class="single-inner-populer-products">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-12">
+                                    <div class="single-inner-populer-product-img">
+                                        <img src="{% static 'images/populer-products/p2.png' %}"
+                                            alt="populer-products images">
+                                    </div>
+                                </div>
+                                <div class="col-md-8 col-sm-12">
+                                    <div class="single-inner-populer-product-txt">
+                                        <h2>
+                                            <a href="#">
+                                                {% trans "Eng so'nggi dizaynlashtirilgan kursi va stul" %}
+                                            </a>
+                                        </h2>
+                                        <p>
+                                            {% trans "Siz har kuni ofisga borasizmi, butunlay uzoqda bo'lasizmi yoki gibrid jadval bilan har ikki dunyoning eng yaxshisiga ega bo'lasizmi" %}
+                                        </p>
+                                        <div class="populer-products-price">
+                                            <h4>{% trans "Sotish dan boshlanadi" %} <span>$99.00</span></h4>
+                                        </div>
+                                        <button class="btn-cart welcome-add-cart populer-products-btn"
+                                            onclick="window.location.href='#'">
+                                            discover more
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="single-populer-products">
+                        <div class="single-populer-products">
+                            <div class="single-populer-product-img">
+                                <img src="{% static 'images/populer-products/p3.png' %}" alt="populer-products images">
+                            </div>
+                            <h2><a href="#">{% trans 'osilgan chiroq' %}</a></h2>
+                            <div class="single-populer-products-para">
+                                <p>{% trans "Yashash xonasi uchun osilgan lampalar" %}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/.container-->
+
+</section>

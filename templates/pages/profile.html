@@ -1,0 +1,31 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %}Profile{% endblock title %}
+
+{% block content %}
+{% load widget_tweaks %}
+
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/3.6.95/css/materialdesignicons.css">
+
+<div>
+    <img src="{{ user.profile.image.url }}" alt="">
+    <h3>{{ user.first_name }}</h3>
+    <h3>{{ user.email }}</h3>
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="row">
+            <div class="col_md-6 form-group mt-5">
+                {% render_field user_form.first_name type='text' class='form-control' %}
+            </div>
+            <div class="col_md-6 form-group mt-5">
+                {% render_field user_form.email type='email' class='form-control' %}
+            </div>
+        
+        <button type="submit">Update</button>
+    </form>
+</div>
+
+
+
+{% endblock %}

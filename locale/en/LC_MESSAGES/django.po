@@ -1,0 +1,201 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-07 12:27+0500\n"
+"PO-Revision-Date: 2022-10-07 12:32+0000\n"
+"Last-Translator: admin admin <admin@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.9.8\n"
+
+#: .\core\settings.py:123
+msgid "Uzbek"
+msgstr ""
+
+#: .\core\settings.py:124
+msgid "English"
+msgstr ""
+
+#: .\templates\includes\blog.html:7
+msgid "ohirgi bloglar"
+msgstr "recent blogs"
+
+#: .\templates\includes\carousel.html:27
+msgid "Ajoyib dizayn kolleksiyasi"
+msgstr "Great design collection"
+
+#: .\templates\includes\carousel.html:28
+msgid "Valvet Accent kreslo"
+msgstr "Valvet Accent Arm Chair"
+
+#: .\templates\includes\carousel.html:30
+msgid ""
+"Xarid qilish - bu mijoz sotib olish niyatida bir yoki bir nechta chakana "
+"sotuvchilar tomonidan taqdim etilgan mavjud tovarlar yoki xizmatlarni ko'rib"
+" chiqadigan faoliyat."
+msgstr ""
+"Shopping is an activity in which a customer browses the available goods or "
+"services presented by one or more retailers with the potential intent to "
+"purchase"
+
+#: .\templates\includes\discover.html:12
+msgid "stul dizayni"
+msgstr "chair design"
+
+#: .\templates\includes\discover.html:14
+msgid "Kreslolar va stul dizayni haqida hikoyalar"
+msgstr "Stories about chairs and chair design"
+
+#: .\templates\includes\discover.html:32
+msgid "Eng so'nggi dizaynlashtirilgan kursi va stul"
+msgstr "Latest designed chair and chair"
+
+#: .\templates\includes\discover.html:36
+msgid ""
+"Siz har kuni ofisga borasizmi, butunlay uzoqda bo'lasizmi yoki gibrid jadval"
+" bilan har ikki dunyoning eng yaxshisiga ega bo'lasizmi"
+msgstr ""
+"Whether you commute to the office every day, are completely away, or have "
+"the best of both worlds with a hybrid schedule"
+
+#: .\templates\includes\discover.html:39
+msgid "Sotish dan boshlanadi"
+msgstr "Sales start from"
+
+#: .\templates\includes\discover.html:57 .\templates\includes\footer.html:49
+msgid "osilgan chiroq"
+msgstr "hanging lamp"
+
+#: .\templates\includes\discover.html:59
+msgid "Yashash xonasi uchun osilgan lampalar"
+msgstr "Hanging lamps for the living room"
+
+#: .\templates\includes\feature.html:57
+msgid "ko'rsatilgan mahsulotlar"
+msgstr "products shown"
+
+#: .\templates\includes\footer.html:12
+msgid "informatsiya"
+msgstr "information"
+
+#: .\templates\includes\footer.html:17
+msgid "Biz haqimizda"
+msgstr "about Us"
+
+#: .\templates\includes\footer.html:19
+msgid "Biz bilan bog'lanish"
+msgstr "contact us"
+
+#: .\templates\includes\footer.html:21
+#, fuzzy
+#| msgid "yangi kelgan"
+msgid "Yangiliklar"
+msgstr "new arrival"
+
+#: .\templates\includes\footer.html:23
+msgid "do'kon"
+msgstr "shop"
+
+#: .\templates\includes\footer.html:36
+msgid "to'plamlar"
+msgstr "to'plamlar"
+
+#: .\templates\includes\footer.html:41
+msgid "yog'och stul"
+msgstr "wooden chair"
+
+#: .\templates\includes\footer.html:43
+msgid "qirollik mato divan"
+msgstr "royal fabric sofa"
+
+#: .\templates\includes\footer.html:45
+#, fuzzy
+#| msgid "Valvet Accent kreslo"
+msgid "aksent kreslo"
+msgstr "Valvet Accent Arm Chair"
+
+#: .\templates\includes\footer.html:47
+msgid "yotoq"
+msgstr "bed"
+
+#: .\templates\includes\footer.html:62 .\templates\includes\footer.html:67
+msgid "mening hisoblarim"
+msgstr "my accounts"
+
+#: .\templates\includes\footer.html:69
+msgid "istaklar royxati"
+msgstr "wish list"
+
+#: .\templates\includes\footer.html:71
+msgid "Jamiyat"
+msgstr "Society"
+
+#: .\templates\includes\footer.html:73
+msgid "buyurtma tarixi"
+msgstr "order history"
+
+#: .\templates\includes\footer.html:75
+msgid "mening aravam"
+msgstr "my cart"
+
+#: .\templates\includes\footer.html:88
+msgid "axborot byulleteni"
+msgstr "newsletter"
+
+#: .\templates\includes\footer.html:93
+msgid ""
+"Eng so'nggi yangiliklar, yangilanishlar va ma'lumotlarni olish uchun obuna "
+"bo'ling."
+msgstr "Subscribe for the latest news, updates and information."
+
+#: .\templates\includes\footer.html:125
+msgid "mualliflik huquqi. tomonidan ishlab chiqilgan va ishlab chiqilgan"
+msgstr "copyright. designed and developed by"
+
+#: .\templates\includes\navigation.html:117
+msgid "uy"
+msgstr "Home"
+
+#: .\templates\includes\navigation.html:118
+msgid "yangi kelgan"
+msgstr "new arrival"
+
+#: .\templates\includes\navigation.html:119
+msgid "aloqa"
+msgstr "contact"
+
+#: .\templates\includes\navigation.html:121
+msgid "royxatdan otish"
+msgstr "log in"
+
+#: .\templates\includes\navigation.html:125
+msgid "boshqaruv paneli"
+msgstr "dashboard"
+
+#: .\templates\includes\navigation.html:128
+msgid "hisob"
+msgstr "profile"
+
+#: .\templates\includes\navigation.html:129
+msgid "chiqish"
+msgstr "log out"
+
+#~ msgid ""
+#~ "Shopping is an activity in which a customer browses the available goods or "
+#~ "services presented by one or more retailers with the potential intent to "
+#~ "purchase"
+#~ msgstr ""
+#~ "Shopping is an activity in which a customer browses the available goods or "
+#~ "services presented by one or more retailers with the potential intent to "
+#~ "purchase"
